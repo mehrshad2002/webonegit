@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul {
     list-style-type: none;
     margin: 0;
@@ -11,3 +12,8 @@ h1{
     color:rgb(138, 138, 138)
 }
   
+=======
+h1{
+    color: red ;
+}
+>>>>>>> 347f55ee7edf367acdec5941a30dcc5a8e50da5d
