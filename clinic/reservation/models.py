@@ -2,6 +2,7 @@ from tkinter import Widget
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
 # Create your models here.
+
 class reserve(models.Model):
     name = models.CharField(max_length=15)
     lastName = models.CharField(max_length=20)
@@ -13,4 +14,4 @@ class reserve(models.Model):
     reservedate = models.DateField(default="date.today")
     reservetime = models.TimeField(auto_now=True)
     docName = models.CharField(max_length=30)
-    gender = models.CharField(max_length=10)
+    gender = models.CharField(max_length=10) 
