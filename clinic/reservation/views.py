@@ -1,5 +1,15 @@
 from django.shortcuts import render
-
+from .forms import reservationForm
+from .models import reserve
 
 def ReserveIndex(request):
-    return render(request, 'reserve/reserve.html')
+    myForm = reservationForm()
+    if request.method == 'POST':
+        myForm = reservationForm(request.POST)
+        if myForm.is_valid():
+            reserve.objects.create(**myForm.cleaned_data)
+            myForm = reservationForm()
+    context = {
+        'form':myForm
+    }
+    return render(request, 'reservation/reserve.html',context)
