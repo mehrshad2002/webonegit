@@ -12,4 +12,4 @@ def ReserveIndex(request):
     context = {
         'form':myForm
     }
-    return render(request, 'reservation/reserve.html',context)
+    return render(request, 'reserve.html',context)

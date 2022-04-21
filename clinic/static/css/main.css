@@ -4,10 +4,9 @@ ul {
     padding: 0; }
   
   .navbarOne {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(5, 0, 157, 0.726);
     overflow: hidden; }
-
-h1{
-    color:rgb(138, 138, 138)
-}
- 
+  
+  h1{
+    color:rgb(131, 69, 130)
+  }
