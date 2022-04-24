@@ -50,3 +50,10 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem ; 
   }
+
+.dark-footer{
+    height: 300px ;
+    background-color: red ;
+    margin: 0 ; 
+    padding: 0 ;
+}
