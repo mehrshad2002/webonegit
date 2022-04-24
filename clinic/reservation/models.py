@@ -12,6 +12,6 @@ class reserve(models.Model):
     email = models.EmailField()
     birthDate = models.DateField(default="date.today")
     reservedate = models.DateField(default="date.today")
-    reservetime = models.TimeField(auto_now=True)
+    reservetime = models.TimeField()
     docName = models.CharField(max_length=30)
-    gender = models.CharField(max_length=10) 
+    gender = models.CharField(max_length=10)
