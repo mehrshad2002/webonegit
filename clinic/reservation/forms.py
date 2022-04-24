@@ -8,8 +8,9 @@ class reservationForm(forms.Form):
     idNumber = forms.CharField()
     phoneNumber = PhoneNumberField()
     email = forms.EmailField()
-    birthDate = forms.DateField(widget=forms.DateInput(attrs={'placeholder':'Ex:2003-06-08'}))
-    reservedate = forms.DateField(widget=forms.DateInput(attrs={'placeholder':'Ex:2003-06-08'}))
-    reservetime = forms.TimeField(widget=forms.TimeInput(attrs={'placeholder':'Ex:23:59'}))
+    birthDate = forms.DateField(widget=forms.DateInput(attrs={'placeholder':'Ex:2003-06-08', 'class' : 'birthDateClass'}))
+    reservedate = forms.DateField(widget=forms.DateInput(attrs={'placeholder':'Ex:2003-06-08' , 'class' : 'birthDateClass'}))
+    reservetime = forms.TimeField(widget=forms.TimeInput(attrs={'placeholder':'Ex:23:59', 'class' : 'birthDateClass'}))
     docName = forms.CharField(max_length=30)
     gender = forms.ChoiceField(widget=forms.RadioSelect,choices=genders)
+    
