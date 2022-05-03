@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(214, 144, 12) ;
+    background-color: #e5e5e5  ;
     /* padding : 0 ;
     margin : 0 ; */
   }
@@ -22,7 +22,7 @@ body{
     }
   
   header{
-    background-color: bisque ;
+    background-color: rgb(13, 186, 216) ;
     position: fixed ; /* or fixed */
     top: 0 ; 
     left: 0 ;
@@ -55,3 +55,70 @@ body{
       font-family: Arial, Helvetica, sans-serif;
   }
   
+
+  .nameClass{
+    
+    color: #5f5f5f;
+    border: none ;
+    font-size: 1.2rem;
+  }
+  
+.lastnameClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.fathernameClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.phonenumberClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.emailClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.birthdayClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.reservedateClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.reservetimeClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.genderClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.reservetime{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
+
+.idnumberClass{
+  color: #5f5f5f;
+  border: none ;
+  font-size: 1.2rem;
+}
