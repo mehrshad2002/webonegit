@@ -38,10 +38,8 @@
             </nav>
         </header>
 
-        <form action='.' method = 'POST'>
-            <div class="form-group">
+        <form action='.' method = 'POST' class = "formClass">
                 {{form.as_p}}
-            </div>
             <input class = "form-control" type = 'submit' value = 'save'/>
             {%csrf_token%}
         </form>

@@ -19,6 +19,7 @@ body{
     padding-top: 0 ;
     border: 2% ;
     box-shadow:  0 0 15px 0 rgb(0, 0, 0) ;
+    padding-bottom: 5% ;
 }
 
 ul{
@@ -27,4 +28,6 @@ ul{
     list-style-type: none ;
 }
 
-
+p{
+    padding: 1% ;
+}
