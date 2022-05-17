@@ -1,0 +1,23 @@
+body{
+    background-color: #e5e5e5  ;
+}
+
+/* header{
+    background-color: rgb(98, 198, 216) ;
+    /* position: fixed ; or fixed */
+    /* top: 0 ; 
+    left: 0 ;
+    right: 0 ;  */
+    /* height: 60px  ;
+    box-shadow:  0 0 15px 0 rgb(0, 0, 0) ;
+} */
+
+
+.backGroundClass{
+    background-color: rgb(13, 186, 216) ;
+    padding: 5% ;
+    border: 2% ;
+    box-shadow:  0 0 15px 0 rgb(0, 0, 0) ;
+    list-style-type: none ;
+
+}

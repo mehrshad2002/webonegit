@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
     background-color: #e5e5e5  ;
     /* padding : 0 ;
@@ -9,10 +12,6 @@ body{
       margin: 0;
       padding: 0; }
     
-    /* .navbarOne {
-      background-color: rgba(51, 51, 51, 0.726);
-      overflow: hidden; }
-     */
     h1{
       color:rgb(0, 0, 0)
     }
@@ -23,12 +22,11 @@ body{
   
   header{
     background-color: rgb(13, 186, 216) ;
-    position: fixed ; /* or fixed */
-    top: 0 ; 
+    /* position: fixed ; or fixed */
+    /* top: 0 ; 
     left: 0 ;
-    right: 0 ; 
+    right: 0 ;  */
     height: 60px  ;
-    display: flex ;
     align-items: center ;
     box-shadow:  0 0 15px 0 rgb(0, 0, 0) ;
   }
