@@ -28,6 +28,62 @@ ul{
     list-style-type: none ;
 }
 
+a{
+    color:azure ;
+    font-size: x-large;
+}
+
 p{
     padding: 1% ;
 }
+
+#nameId{
+    width: 35% ;
+    
+}
+
+#lastnameId{
+    width: 35% ;
+}
+
+#fathernameId{
+    width: 35% ;
+}
+
+#idNumberId{
+    width: 35% ;
+}
+
+#phoneNumberId{
+    width: 35% ;
+}
+
+#emailId{
+    width: 35% ;
+}
+
+#birthDateId{
+    width: 35% ;
+}
+
+#reserveDateId{
+    width: 35% ;
+}
+
+#reserveTimeId{
+    width: 35% ;
+}
+
+#docNameId{
+    width: 35% ;
+}
+
+#genderId{
+    width: 35% ;
+}
+
+#submitId{
+    margin-bottom: 5% ;
+}
+
+

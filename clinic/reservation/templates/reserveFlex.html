@@ -40,7 +40,7 @@
 
         <form action='.' method = 'POST' class = "formClass">
                 {{form.as_p}}
-            <input class = "form-control" type = 'submit' value = 'save'/>
+            <input id = "submitId" class = "form-control" type = 'submit' value = 'save'/>
             {%csrf_token%}
         </form>
         

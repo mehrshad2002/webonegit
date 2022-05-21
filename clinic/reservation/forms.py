@@ -18,7 +18,7 @@ class reservationForm(forms.Form):
     email = forms.EmailField(widget=forms.EmailInput(attrs={'class':'form-control','id':'emailId'}))
     birthDate = forms.DateField(widget=forms.DateInput(attrs={'placeholder':'Ex:2003-06-08', 'class':'form-control','id':'birthDateId'}))
     # reservedate = forms.DateField(widget=forms.DateInput(attrs={'placeholder':'Ex:2003-06-08'}))
-    reserveDate = forms.ChoiceField(widget=forms.RadioSelect(attrs={'class':'form-control','id':'reserveDateId'}),choices=date)
+    reserveDate = forms.ChoiceField(widget=forms.RadioSelect(attrs={'id':'reserveDateId'}),choices=date) # *not support bootstrap 
     reserveTime = forms.TimeField(widget=forms.TimeInput(attrs={'placeholder':'Ex:23:59' , 'class':'form-control','id':'reserveTimeId'}))
     docName = forms.CharField(max_length=30,widget=forms.TextInput(attrs={'class':'form-control','id':'docNameId'}))
-    gender = forms.ChoiceField(widget=forms.RadioSelect(attrs={'class':'form-control','id':'genderId'}),choices=genders)
+    gender = forms.ChoiceField(widget=forms.RadioSelect(attrs={'id':'genderId'}),choices=genders) # *not support bootstrap 
